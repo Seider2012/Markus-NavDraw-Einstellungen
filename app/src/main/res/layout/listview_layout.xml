@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="130dp">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Adresse"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Straße"
+        android:id="@+id/tv_strasse"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_alignLeft="@+id/tv_typ"
+        android:layout_alignStart="@+id/tv_typ" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nr."
+        android:id="@+id/tv_nr"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/tv_strasse"
+        android:layout_toRightOf="@+id/tv_strasse"
+        android:layout_toEndOf="@+id/tv_strasse" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Art"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="typ"
+        android:id="@+id/tv_typ"
+        android:layout_above="@+id/textView12"
+        android:layout_alignLeft="@+id/tv_entf"
+        android:layout_alignStart="@+id/tv_entf" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Entfernung"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView16"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0.0"
+        android:id="@+id/tv_entf"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_toRightOf="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="km"
+        android:id="@+id/textView15"
+        android:layout_alignTop="@+id/tv_entf"
+        android:layout_toRightOf="@+id/tv_entf"
+        android:layout_toEndOf="@+id/tv_entf"
+        android:layout_marginLeft="5dp"/>
+
+</RelativeLayout>

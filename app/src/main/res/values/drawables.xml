@@ -1,0 +1,4 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_send" type="drawable">@drawable/ic_restaurant_black_24dp</item>
+
+</resources>

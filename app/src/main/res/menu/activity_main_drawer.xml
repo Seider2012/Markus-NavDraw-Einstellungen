@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="Restaurants"
+            android:enabled="true"/>
+        <item
+            android:id="@+id/nav_voting"
+            android:title="Voting"
+            android:icon="@drawable/ic_pie_chart_black_24dp"
+            android:enabled="true"/>
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="History"
+            android:enabled="false"/>
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_trending_up_black_24dp"
+            android:title="Statistik"
+            android:enabled="true"/>
+        <item
+            android:id="@+id/nav_gruppe"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Gruppe"
+            android:enabled="true"/>
+
+    </group>
+
+    <item android:title="Internes" >
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:title="Login" />
+            <item
+                android:id="@+id/nav_registrierung"
+                android:title="Registrierung" />
+            <item
+                android:id="@+id/settings"
+                android:title="Einstellungen" />
+            <item
+                android:id="@+id/abmelden"
+                android:title="Abmelden" />
+
+        </menu>
+    </item>
+
+
+
+</menu>
